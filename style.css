@@ -1,7 +1,5 @@
 
-
-@media (max-width: 768px) {
-  body {
+ body {
   background-color: #FEFFF0;
   font-family: 'Arial Black', Gadget, sans-serif;
   margin: 0;
@@ -74,4 +72,4 @@
     margin-left: 50%;
     transform: translateX(-50%);
   }
-}
+
