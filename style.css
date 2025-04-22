@@ -1,4 +1,7 @@
-body {
+
+
+@media (max-width: 768px) {
+  body {
   background-color: #FEFFF0;
   font-family: 'Arial Black', Gadget, sans-serif;
   margin: 0;
@@ -45,8 +48,7 @@ body {
   margin-top: 18%;
 }
 
-/* 🌟 Responsive Magic Starts Here */
-@media (max-width: 768px) {
+
   .arrow {
     left: 50%;
     top: 20%;
