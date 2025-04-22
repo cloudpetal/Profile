@@ -1,0 +1,60 @@
+body {
+  background-color: #FEFFF0;
+  font-family: 'Arial Black', Gadget, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #111;
+}
+
+.arrow{
+
+position: absolute;
+width: 200px;
+height: 200px;
+left: 63%;
+top: 23%;
+
+transform: rotate(1.63deg);
+
+}
+
+.smile {
+
+position: absolute;
+width: 31.95px;
+height: 29.27px;
+left: 58%;
+top: 28%;
+
+transform: rotate(8.96deg);
+
+}
+
+.annu {
+  position: absolute;
+  width: 100px;
+  height: 37px;
+  left: 60%;
+  top: 25%;
+
+  font-family: 'Space Grotesk', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 37px;
+
+  color: #000000;
+  text-shadow: 0px 4px 0px rgba(231, 231, 231, 0.32);
+  transform: rotate(-23.4deg);
+}
+
+
+
+
+
+.boxsmile {
+ 
+  margin-left: 60%;
+  margin-top: 18%;
+
+}
