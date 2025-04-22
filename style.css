@@ -45,31 +45,3 @@
   margin-left: 60%;
   margin-top: 18%;
 }
-
-
-  .arrow {
-    left: 50%;
-    top: 20%;
-    transform: translateX(-50%) rotate(1.63deg);
-    width: 150px;
-    height: 150px;
-  }
-
-  .smile {
-    left: 50%;
-    top: 28%;
-    transform: translateX(-50%) rotate(8.96deg);
-  }
-
-  .annu {
-    left: 50%;
-    top: 25%;
-    transform: translateX(-50%) rotate(-23.4deg);
-    font-size: 24px;
-  }
-
-  .boxsmile {
-    margin-left: 50%;
-    transform: translateX(-50%);
-  }
-
