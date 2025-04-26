@@ -5,17 +5,111 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Annu Fibin - Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">My Experience</a></li>
+            <li><a href="#skills">Skills & Technologies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
      <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
 
 
 <div class="annu">Annu</div>
-<img src="smile.png" class="smile">
-<img src="rectsmile.png" class="boxsmile">
-<img src="arrow.png" class="arrow" >    
+<img src="images/smile.png" class="smile">
+<img src="images/arrow.png"class="arrow" >    
+<img src= images/size7.png class="boxsmile">
 
+
+<div class="left-intro">
+  <h1>Hi I'm Annu Fibin</h1>
+  <p>Student | Aspiring Web Developer | Creative Thinker</p>
+  <p>This portfolio is a window into my learning journey, showcasing the skills, projects,<br><br> and progress I've made so far in web development and technology.</p>
+  <em class="quote">"Every line of code is a step closer to who I'm becoming. - Anonymous"</em>
+</div>
+
+<div class="slider-container">
+  <button class="slide-btn" onclick="slideLeft()">⬅️</button>
+  
+  <div class="image-slider">
+    <div class="image-track">
+    <img src="images/officework.png.png" class="slide-img">
+    <img src="images/officework1.png.png" class="slide-img">
+    <img src="images/officework2.png.png" class="slide-img">
+  </div>
+  </div>
         
+  <section id="about" class="about-section">
+    <h2>About Me 🌼</h2>
+  
+    <p class="about-intro">
+      I’m Annu Fibin , a 14-year-old student studying at RMHSS Vadavucode, Kerala.  
+      I’m passionate about technology, especially front-end web development. My journey started with HTML and CSS, and I’m currently exploring JavaScript to create more interactive websites.
+    </p>
+  
+    <p class="about-interest">
+      I love designing clean, aesthetic, and user-friendly interfaces that reflect creativity and simplicity.  
+      I also enjoy solving problems, learning new things, and making every detail look ✨ just right ✨.  
+      Beyond tech, I adore crafts, soft visuals, and adding personal magic to everything I build.
+    </p>
+  
+    <p class="about-closing">
+      My dream is to become a confident developer and use my skills to create something meaningful and beautiful for the world. 💖
+    </p>
+  </section>
+
+  <img class="me" src="images/girlworking.jpg.jpg"/>
+
+  <section id="experience" class="experience-section">
+
+    <div class="experience-content"> 
+      <p class="headingone">My Experience with STEYP 💻</p> 
+      <p class="headingone">What STEYP Program I Joined:<br></p> 
+      I first learned about STEYP through my school, where it was introduced via the 'Tech at School' program. This initiative, part of STEYP—an EdTech platform by Talrop—provided me with the opportunity to delve into technology education and development.</p>
+  
+      <p class="headingone">What STEYP Taught Me:<br></p> 
+      <p> ● Improved my coding abilities in HTML, CSS, and JavaScript.<br>
+      ● Learned about modern development tools like VS Code and Sublime Text.<br>
+      ● Worked on practical projects that helped me apply my knowledge.</p>
+  
+      <p class="headingone">Challenges:<br></p>
+        <p>  ● Adapting to new JavaScript concepts was initially challenging, but I overcame it with practice.<br>
+      ● Managing projects efficiently and debugging errors required a problem-solving approach.</p>
+  
+      <p class="headingone">Personal Growth:<br></p>
+        <p> Being part of STEYP has solidified my passion for coding and inspired me to build real-world projects.</p>
+    </div>
+     
+  
+    <!-- STEYP Logo -->
+    <a href="https://www.steyp.com/profile" target="_blank">
+      <img src="images/steyplogo.png" alt="STEYP Logo" class="steyp-icon">
+    </a>
+    
+    <a href="https://steyp.com/about-us/" target="_blank">
+    <div class="btn">
+      <strong>About Steyp</strong>
+      <div id="container-stars">
+        <div id="stars"></div>
+      </div>
+    
+      <div id="glow">
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+    </div>
+    </a>
+    
+    
+
+  </section>
 
 </body>
 </html>
