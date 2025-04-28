@@ -40,7 +40,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #000000;
-  font-size: 38px;
+  font-size: 29px;
   font-weight: 700;
   padding: 8px 16px;
   border-radius: 5px;
@@ -97,7 +97,7 @@ nav ul li a:hover {
   bottom: 5%;
   position: absolute;
   font-family: 'Dancing Script', cursive;
-  font-size: 32px;
+  font-size: 29px;
   font-weight: 700;
 
 
@@ -149,15 +149,15 @@ nav ul li a:hover {
   height: 100%;
 }
 
-.about-section h2 {
-  font-size: 80px;
+.about-section h1 {
   color: #e75480;
   margin-bottom: 20px;
   text-align: center;
+  font-size: xx-large;
 }
 
 .about-section p {
-  font-size: 40px;
+  font-size: 29px;
   line-height: 1.7;
   margin-bottom: 20px;
   text-align: center;
@@ -177,7 +177,7 @@ nav ul li a:hover {
 }
 
 .experience-content {
-  font-size: 40px;
+  font-size: 29px;
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -188,11 +188,11 @@ nav ul li a:hover {
 
 .me {
 
-  width: 370px;
+  width: 350px;
   margin-left: 50%;
   position: absolute;
   border-radius: 10px;
-  top: 358%;
+  top: 272%;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -390,3 +390,54 @@ strong {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
+
+.skills {
+  color: #333;
+  background-color: rgb(196, 239, 245);
+  padding: 60px 40px;
+  font-family: 'Dancing Script', cursive; /* Aesthetic font */
+  border-radius: 20px; /* Rounded corners */
+  width: 80%;
+  margin: 60px auto; /* Centering the section */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08); /* Soft shadow */
+  font-weight: 700; /* Bold text */
+  height: 40%;
+  
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #f8a1d1; /* pink accent */
+  margin-bottom: 15px;
+}
+
+.skills h3 {
+  font-size: 31px;
+  color: #ff72b1; /* soft pink */
+  margin-bottom: 8px;
+}
+
+.skills p {
+  font-size: 29px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills ul li {
+  font-size: 29px;
+  color: #555;
+  margin-top: 5px;
+}
+
+p {
+  font-size: 29px;
+}
+
+
+
