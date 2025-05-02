@@ -7,8 +7,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="site-wrapper">
   <header>
     <nav>
         <ul>
@@ -24,13 +26,13 @@
 
 
 <div class="annu">Annu</div>
-<img src="smile.png" class="smile">
-<img src="arrow.png"class="arrow" >    
-<img src= "size7.png" class="boxsmile">
+<img src="images/smile.png" class="smile">
+<img src="images/arrow.png"class="arrow" >    
+<img src= images/size7.png class="boxsmile">
 
 
 <div class="left-intro">
-  <h1>Hi I'm Annu Fibin</h1>
+  <h1 class="isme">Hi I'm Annu Fibin</h1>
   <p>Student | Aspiring Web Developer | Creative Thinker</p>
   <p>This portfolio is a window into my learning journey, showcasing the skills, projects,<br><br> and progress I've made so far in web development and technology.</p>
   <em class="quote">"Every line of code is a step closer to who I'm becoming. - Anonymous"</em>
@@ -41,9 +43,9 @@
   
   <div class="image-slider">
     <div class="image-track">
-    <img src="officework.png.png" class="slide-img">
-    <img src="officework1.png.png" class="slide-img">
-    <img src="officework2.png.png" class="slide-img">
+    <img src="images/officework.png.png" class="slide-img">
+    <img src="images/officework1.png.png" class="slide-img">
+    <img src="images/officework2.png.png" class="slide-img">
   </div>
   </div>
         
@@ -66,7 +68,7 @@
     </p>
   </section>
 
-  <img src="girlworking.jpg.jpg" class="me" >
+  <img class="me" src="images/girlworking.jpg.jpg"/>
 
   <section id="experience" class="experience-section">
 
@@ -91,7 +93,7 @@
   
     <!-- STEYP Logo -->
     <a href="https://www.steyp.com/profile" target="_blank">
-      <img src="steyplogo.png" alt="STEYP Logo" class="steyp-icon">
+      <img src="images/steyplogo.png" alt="STEYP Logo" class="steyp-icon">
     </a>
     
     <a href="https://steyp.com/about-us/" target="_blank">
@@ -134,39 +136,45 @@
 
   <section id="contact">
     <div class="contact-container">
-      <div class="contact-info">
+  
+      <!-- Left Side: Contact Info -->
+      <div class="contact-left">
         <h2>Contact Me</h2>
         <p>If you'd like to get in touch, feel free to reach out through any of the following:</p>
-        
+  
         <ul class="contact-links">
           <p><i class="fas fa-envelope"></i> Email: <a href="mailto:cloudpetal2011@gmail.com">cloudpetal2011@gmail.com</a></p>
-          <p><i class="fas fa-github"></i> GitHub: <a href="https://github.com/cloudpetal">https://github.com/cloudpetal</a></p>
-          <p><i class="fab fa-linkedin"></i> linkedin: <a href="https://www.linkedin.com/in/annufibin">https://www.linkedin.com/in/annufibin</a></p>
-          
-  
+          <p><i class="fas fa-github"></i> GitHub: <a href="https://github.com/cloudpetal">github.com/cloudpetal</a></p>
+          <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/annufibin">linkedin.com/in/annufibin</a></p>
         </ul>
-        
+
+        <img src="images/email.png" alt="Contact Pic" class="contact-pic">
+
+      </div>
+  
+      <!-- Right Side: Form -->
+      <div class="contact-right">
         <p>Or, you can send a message through the form below:</p>
-        
         <form action="https://getform.io/f/bllymjkb" method="POST">
           <label for="name">Name</label>
           <input type="text" id="name" name="name" required>
-          
+  
           <label for="email">Email</label>
           <input type="email" id="email" name="email" required>
-          
+  
           <label for="message">Message</label>
           <textarea id="message" name="message" rows="5" required></textarea>
-          
+  
           <button type="submit">Send Message</button>
         </form>
       </div>
+  
     </div>
   </section>
-
   <footer class="footer">
     <h5>© 2025 Annu Fibin. All rights reserved.</h5>
   </footer>
 
-</head>
+</div>
+
 </body>
