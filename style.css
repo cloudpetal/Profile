@@ -6,10 +6,17 @@ body {
   padding: 10px;
 }
 
+.site-wrapper {
+  max-width: 1200px; /* Set the maximum width of the site */
+  margin: 0 auto;    /* Center the wrapper horizontally */
+  padding: 20px;     /* Add some padding around the content */
+}
+
 header {
   background-color: #f0b5d3; /* Soft pink background */
   height: 100%;
   border-radius: 10px;
+  width: 100%;
 }
 
 header::after {
@@ -40,7 +47,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #000000;
-  font-size: 20px;
+  font-size: 32px;
   font-weight: 700;
   padding: 8px 16px;
   border-radius: 5px;
@@ -94,13 +101,15 @@ nav ul li a:hover {
 
 .left-intro {
 
-  bottom: 5%;
+  bottom: 20%;
   position: absolute;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 700;
+}
 
-
+.isme {
+  font-family: 'Dancing Script' , cursive;
 }
 
 .image-slider {
@@ -166,7 +175,7 @@ nav ul li a:hover {
 .experience-section {
   background-color: #000000; /* Soft pink background */
   padding: 60px 40px;
-  font-family: 'Dancing Script', cursive; /* Aesthetic font */
+  font-family: 'Roboto', sans-serif; /* Aesthetic font */
   border-radius: 20px; /* Rounded corners */
   width: 80%;
   margin: 60px auto; /* Centering the section */
@@ -184,6 +193,8 @@ nav ul li a:hover {
 
 .headingone {
   color: #f7c0d7;
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
 }
 
 .me {
@@ -192,7 +203,7 @@ nav ul li a:hover {
   margin-left: 50%;
   position: absolute;
   border-radius: 10px;
-  top: 272%;
+  top: 248%;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -395,7 +406,7 @@ strong {
   color: #333;
   background-color: rgb(196, 239, 245);
   padding: 60px 40px;
-  font-family: 'Dancing Script', cursive; /* Aesthetic font */
+  font-family: 'Roboto', sans-serif;
   border-radius: 20px; /* Rounded corners */
   width: 80%;
   margin: 60px auto; /* Centering the section */
@@ -410,18 +421,22 @@ strong {
   font-size: 32px;
   color: #f8a1d1; /* pink accent */
   margin-bottom: 15px;
+  font-family: 'Dancing Script', cursive;
 }
 
 .skills h3 {
   font-size: 31px;
   color: #ff72b1; /* soft pink */
   margin-bottom: 8px;
+  font-family: 'Dancing Script', cursive;
 }
 
 .skills p {
   font-size: 20px;
   color: #555;
   margin-top: 5px;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .skills ul {
@@ -437,37 +452,64 @@ strong {
 
 p {
   font-size: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #contact {
   background-color: #f0b5d3; /* Soft pink background */
   padding: 50px 20px;
-  text-align: center;
   background-size: cover;
   background-position: center;
   border-radius: 20px ;
   height: 40%;
   width: 80%;
   margin: 60px auto; /* Centering the section */
+  font-family: 'Roboto', sans-serif;
 }
 
 .contact-container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 30px;
   background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
   border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  
+}
+
+.contact-left,
+.contact-right {
+  flex: 1 1 45%;
+  min-width: 300px;
+  text-align: left;
+  
+}
+
+.contact-right {
+ 
+  padding-right:30px ;
+
+}
+
+
+.contact-pic{
+
+  width: 60%;
+
 }
 
 .contact-info h2 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Dancing Script', cursive;
   font-size: 32px;
   font-weight: 700;
   color: #333;
 }
 
 .contact-info p {
-  font-family: 'Dancing Script', cursive;
+   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #333;
 }
@@ -534,3 +576,6 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+
+
+
